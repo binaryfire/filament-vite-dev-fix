@@ -1,0 +1,34 @@
+{
+    "name": "binaryfire/filament-vite-dev-fix",
+    "description": "Fix for Filament v4 Vite dev server styling issues",
+    "keywords": [
+        "filament",
+        "vite",
+        "laravel"
+    ],
+    "homepage": "https://github.com/binaryfire/filament-vite-dev-fix",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Binaryfire",
+            "homepage": "https://github.com/binaryfire"
+        }
+    ],
+    "require": {
+        "filament/filament": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Binaryfire\\FilamentViteDevFix\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binaryfire\\FilamentViteDevFix\\FilamentViteDevFixServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
