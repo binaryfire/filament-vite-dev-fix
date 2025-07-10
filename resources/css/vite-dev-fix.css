@@ -90,3 +90,15 @@ input:checked + label.fi-btn > .fi-icon {
 .dark .fi-btn:is(label) {
     box-shadow: 0 0 0 1px oklch(1 0 0 / 0.2); /* dark:ring-white/20 */
 }
+
+/* Table badges */
+.fi-ta-text.fi-ta-text-has-badges {
+    display: flex;
+    gap: 0.375rem;
+}
+
+/* Wrapped table badges */
+ul.fi-ta-text-has-badges.fi-wrapped.fi-ta-text {
+    flex-wrap: wrap;
+    row-gap: 0.25rem;
+}
